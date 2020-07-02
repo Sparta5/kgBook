@@ -14,6 +14,40 @@
 			.font_max{font-size: 0.875rem;}
 			.bg_cr{background-color:#e5ebe4;}
 			.header a{ line-height: 40px;}
+			@media (min-width:768px) {
+				.header>div>div{height: 56px;}
+				.s_header1>ul>li{
+					height: 56px;
+					padding: 0;
+					margin: 0;
+					line-height: 56px;
+				}
+				.s_header1>ul>li{position: relative;}
+				.s_header1>ul>li>ul{
+					width: 100%;
+					height: 40px;
+					line-height: 40px;
+					position: absolute;
+					z-index: 3;
+					display: none;
+					}
+					.s_header1>ul>li:hover ul{
+						display: block;
+					}
+			}
+					.s_header1>ul>li>a>div{
+						  width:0;
+						  height:0;
+						 border-top:5px solid #848484;
+						  border-left:5px solid transparent;
+						  border-right:5px solid transparent;
+						  border-bottom:0;
+							float:right ;
+							margin-top:18px ;
+							margin-left: 4px;
+					}
+					/* .header{position: fixed;} */
+			
 			/* genre */
 			.breadcrumb-item + .breadcrumb-item::before {
 				content: "|";
@@ -106,7 +140,6 @@
 									<li class="nav-item">
 										<a class="text-white nav-link top_hv text-right d-sm-block d-md-none" href="#">免费加入</a>
 									</li>
-									
 									<li class="nav-item">
 										<a class="text-white nav-link top_hv" href="#">关于我们</a>
 									</li>
@@ -124,8 +157,16 @@
 								<li class="nav-item bg-info">
 									<a class="text-white nav-link top_hv d-sm-none d-md-block" href="#">分享图片</a>
 								</li>
-								<li class="nav-item">
-									<a class="text-white nav-link top_hv d-sm-none d-md-block" href="#">免费加入</a>
+								<li class="nav-item d-sm-none d-md-block">
+									<a class="text-white nav-link top_hv " href="#">免费加入
+									<div></div>
+									</a>
+									
+									<ul class="list-unstyled">
+										<li class="bg-dark text-center">
+											<a class="text-white top_hv d-block" href="#">登录</a>
+										</li>
+									</ul>
 								</li>
 							</ul>
 						</div>
