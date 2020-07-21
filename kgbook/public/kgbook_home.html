@@ -51,6 +51,8 @@
 			/* genre */
 			.breadcrumb-item + .breadcrumb-item::before {
 				content: "|";
+				font-size: 0.9rem;
+				color: #CCCCCC;
 			}
 			.font_cr{color: #037b82;font-size: 0.7rem;}
 			.font_cr:hover {
@@ -117,21 +119,25 @@
 				.s_header{ padding: 0;}
 				.s_header1{ display: none !important; }
 			}
-			
+			@media (min-width: 576px) {
+			  .container {
+			    max-width: 100%;
+			  }
+			}
 		</style>
 	</head>
 	<body>
 		<!-- top -->
 		
 		<div class="bg-dark header">
-			 <div class="container px-0">
+			 <div id="top" class="container px-0">
 				  <div class="navbar s_header navbar-dark bg-dark navbar-expand-md px-sm-0 px-md-0 px-sm-0 py-0 mx-0">
-					 <a href="#" class="navbar-brand ">苦瓜书盘</a>
+					 <a href="#" class="navbar-brand px-2">苦瓜书盘</a>
 					 <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#d1">
 						 <a class="text-white" href="#"><span class="h6 mr-1 font-weight-bold">菜单</span><span class="navbar-toggler-icon"></span></a>
 					 </button>
 					 <div id="d1" class="collapse navbar-collapse" >
-						 <div class="collapse navbar-collapse d-flex flex-row ">
+						 <div class="collapse navbar-collapse d-flex flex-row">
 								<ul class="navbar-nav font_small float-left w-100">
 									
 									<li class="nav-item bg-info">
@@ -141,13 +147,13 @@
 										<a class="text-white nav-link top_hv text-right d-sm-block d-md-none" href="#">免费加入</a>
 									</li>
 									<li class="nav-item">
-										<a class="text-white nav-link top_hv" href="#">关于我们</a>
+										<a class="text-white nav-link top_hv pl-2" href="#">关于我们</a>
 									</li>
 									<li class="nav-item">
-										<a class="text-white nav-link top_hv" href="#">服务条款</a>
+										<a class="text-white nav-link top_hv pl-2" href="#">服务条款</a>
 									</li>
 									<li class="nav-item"> 
-										<a class="text-white nav-link top_hv" href="#">免责声明</a>
+										<a class="text-white nav-link top_hv pl-2" href="#">免责声明</a>
 									</li>
 								</ul>
 							</div>
@@ -175,7 +181,7 @@
 			 </div>
 		 </div>
 		<!-- top-bottom -->
-		<div class="bg_cr border">
+		<div class="bg_cr border px-3">
 				<div class="container">
 					<div id="header" class="row ">
 						 <div class="d-none d-lg-block d-md-block col-md-12 col-lg-6 px-0 pt-2">
