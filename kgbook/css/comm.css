@@ -13,7 +13,7 @@
 	z-index: 3;
 	}
 .r_hv:hover .hv_obj{display: block;}
-.mx_none>li a{padding-top: 0px; padding-bottom: 0px;}
+.mx_none>li a{padding-top: 0px; padding-bottom: 0px;text-decoration: none;}
 .out_no:focus{outline: none;}
 /* 三角 */
 .sj{
@@ -26,6 +26,13 @@
 			margin-top: 30%;
 			margin-left: 4px;
 		 }
+		 /* top_cneter */
+#log a{
+	display:block;
+	height: 38px;
+	background: url(../img/kgbook-logo.png) no-repeat;
+}
+
 /* genre */
 .breadcrumb-item + .breadcrumb-item::before {
 				content: "|";
@@ -40,7 +47,12 @@
 		.bg_info{background-color:#17a2b8;}
 	}
 	@media (max-width: 992px) {
-	  #top {
+	  #top,#top_center {
 			    max-width: 100%;
 			  }
 			}
+#top_center .row::before,
+#top_center .row::after{
+	content: "";
+	display: table;
+}
