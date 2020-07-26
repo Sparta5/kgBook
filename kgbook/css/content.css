@@ -1,0 +1,184 @@
+/* top */
+.font_small{font-size: 0.75rem;}
+.font_max{font-size: 0.875rem;text-decoration: ;}
+.text_none{text-decoration: none;}
+#top li:hover{ background-color:#212529c7!important;}
+
+.bg_cr{background-color:#e5ebe4;}
+.header a{ line-height: 40px;}
+.r_hv>ul>li{position: relative;}
+.r_hv .hv_obj li{
+	display: none;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	z-index: 3;
+	}
+.r_hv .hv_obj:hover li{display: block;}
+.mx_none>li a{padding-top: 0px; padding-bottom: 0px;text-decoration: none;}
+.out_no:focus{outline: none;}
+/* 三角 */
+.sj{
+		  width:0;
+		  height:0;
+		  border-top:5px solid #848484;
+			border-left:5px solid transparent;
+			border-right:5px solid transparent;
+			border-bottom:0;
+			margin-top: 30%;
+			margin-left: 4px;
+		 }
+		 /* top_cneter */
+#log a{
+	display:block;
+	height: 38px;
+	background: url(../img/kgbook-logo.png) no-repeat;
+}
+/* genre */
+#top_center{
+	border-bottom: 1px solid #cccccc;
+	}
+.breadcrumb-item + .breadcrumb-item::before {
+				content: "|";
+				font-size: 0.9rem;
+				color: #CCCCCC;
+			}
+.font_cr a{color: #037b82;font-size: 0.7rem;}
+.font_cr a:hover {
+			  text-decoration:  none;background-color: #008cba;color: #fff;
+			}
+.bg_info{background-color:#17a2b8;}
+.img_sz{width: 130px;height: 180px;}
+	@media (max-width:768px) {
+		
+	}
+	@media (max-width: 991.99px) {
+	  #top,#top_center,#content{
+			    max-width: 100%;
+			  }
+		}
+	@media (min) {
+		
+	}	
+			/* content */
+.breadcrumbs{
+	padding: 1px 0.875rem 0.5625rem;
+	background-color: #e9ecef;
+	border: 1px solid gainsboro;
+	margin-top: 1.98925rem;
+	border-radius: 3px;
+}
+.breadcrumbs-item + .breadcrumbs-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
+.list_position li{
+	list-style-position: inside;
+	line-height: 1.6;
+}
+.btn{border-radius: 0;}
+.btn:hover {
+  color: #fff;
+  background-color: #008383;
+  border-color: #009595;
+	border-radius: 0;
+	transition: 0.5s;
+}
+.input_bor{
+	border: 2px solid #cbcbcb;
+}
+.input_bor::after{
+		content: "";
+		display: table;
+		clear: both;
+}
+.text_input{
+	width: 100%;
+	min-height: 38px;
+	padding: 12px 8px;
+	line-height: 8px;
+	outline: none;
+	background-color: transparent;
+	color: #444444;
+	overflow: hidden;
+	resize: none;
+}
+.sns-login{width: 174px;height: 70px;}
+.sns-login button{
+	background: none;
+	border: 0;
+	float: left;
+	padding: 0.125rem;
+}
+/* login */
+.i-livere{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -545px -633px;
+}
+.i-weibo{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -700px -315px;
+}
+.i-wechat{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -700px -280px;
+}
+.i-qq{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -700px -70px;
+}
+.i-baidu{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -160px -633px;
+}
+.i-renren{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -700px -140px;
+}
+.i-douban{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -230px -633px;
+}
+form input{
+	border: 0;
+	border-bottom: 1px solid #b6b6b6;
+	padding: 0.21875rem 0;
+}
+.i-tooltip{
+	background-image: url(../img/zero_sprite.png);
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background-position: -806px -829px;
+	background-color: #FEFEFE;
+}
+.btn_style{
+	background: none;
+	border: 0;
+	text-align: right;
+	padding: 0.125rem;
+	float: right;
+	opacity: 0.5;
+}
+/* #top_center .row::before,
+#top_center .row::after{
+	content: "";
+	display: table;
+} */
+/* contern */
