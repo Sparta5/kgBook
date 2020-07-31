@@ -176,6 +176,15 @@ form input{
 	float: right;
 	opacity: 0.5;
 }
+.comment button{
+	background:none;
+	border: 0;
+	font-size: 13px;
+}
+.comment button:focus{
+	padding-top: 3px;
+	color: #f00;
+}
 /* #top_center .row::before,
 #top_center .row::after{
 	content: "";
