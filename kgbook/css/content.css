@@ -57,9 +57,22 @@
 			    max-width: 100%;
 			  }
 		}
-	@media (min) {
-		
-	}	
+
+	/* content--right */
+			.right_bg{background-color: #f2f7f6;margin: 20px;}
+			.right_bg a{
+				color: #008cba;
+				text-decoration: none;
+				line-height: inherit;
+				font-size: 0.875rem;
+			}
+		.right_bg li{ height: 2em; line-height: 1.5em;}	
+	/* button */
+	.bot_range{margin-top: 1%;
+					margin-bottom: 1%;
+					padding-top: 1%;
+					border-top: 1px dashed #ccc;
+					}
 			/* content */
 .breadcrumbs{
 	padding: 1px 0.875rem 0.5625rem;
@@ -185,9 +198,25 @@ form input{
 	padding-top: 3px;
 	color: #f00;
 }
-/* #top_center .row::before,
-#top_center .row::after{
-	content: "";
-	display: table;
-} */
-/* contern */
+.comment img{
+	width: 40px;height: 40px;
+	border-radius: 50%;
+}
+.i-p-qq{
+	background-image: url(../img/zero_sprite.png);
+	width: 25px;height: 25px;
+	border-radius: 50%;
+	background-position: -648px -741px;
+}
+.i-content{
+	background-image: url(../img/zero_sprite.png);
+	width: 26px;height: 26px;
+	border-radius: 50%;
+	background-position: -651px -829px;
+}
+.i-more{
+	background-image: url(../img/zero_sprite.png);
+	width: 26px;height: 26px;
+	border-radius: 50%;
+	background-position: -31px -829px;
+}
