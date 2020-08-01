@@ -1,19 +1,5 @@
 
 			/* content */
-.breadcrumbs{
-	padding: 1px 0.875rem 0.5625rem;
-	background-color: #e9ecef;
-	border: 1px solid gainsboro;
-	margin-top: 1.98925rem;
-	border-radius: 3px;
-}
-.breadcrumbs-item + .breadcrumbs-item::before {
-  display: inline-block;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  color: #6c757d;
-  content: "/";
-}
 .list_position li{
 	list-style-position: inside;
 	line-height: 1.6;

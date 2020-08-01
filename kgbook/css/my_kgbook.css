@@ -3,7 +3,7 @@
 .font_small{font-size: 0.75rem;}
 .font_max{font-size: 0.875rem;text-decoration: ;}
 .text_none{text-decoration: none;}
-#top li:hover{ background-color:#212529c7!important;}
+#top li:hover{ background-color:rgba(0,0,0,.9)!important;}
 
 .bg_cr{background-color:#e5ebe4;}
 .header a{ line-height: 40px;}
@@ -58,6 +58,21 @@
 			    max-width: 100%;
 			  }
 		}
+/* nav center */
+.breadcrumbs{
+	padding: 1px 0.875rem 0.5625rem;
+	background-color: #e9ecef;
+	border: 1px solid gainsboro;
+	margin-top: 1.98925rem;
+	border-radius: 3px;
+}
+.breadcrumbs-item + .breadcrumbs-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
 
 	/* content--right--*/
 			.right_bg{background-color: #f2f7f6;margin: 20px;}
