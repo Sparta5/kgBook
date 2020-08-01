@@ -1,1 +1,104 @@
-.top_bar{width: 1000px;}
+/* .top_bar{width: 1000px;} */
+/* top */
+.font_small{font-size: 0.75rem;}
+.font_max{font-size: 0.875rem;text-decoration: ;}
+.text_none{text-decoration: none;}
+#top li:hover{ background-color:#212529c7!important;}
+
+.bg_cr{background-color:#e5ebe4;}
+.header a{ line-height: 40px;}
+.r_hv>ul>li{position: relative;}
+.r_hv .hv_obj li{
+	display: none;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	z-index: 3;
+	}
+.r_hv .hv_obj:hover li{display: block;}
+.mx_none>li a{padding-top: 0px; padding-bottom: 0px;text-decoration: none;}
+.out_no:focus{outline: none;}
+/* 三角 */
+.sj{
+		  width:0;
+		  height:0;
+		  border-top:5px solid #848484;
+			border-left:5px solid transparent;
+			border-right:5px solid transparent;
+			border-bottom:0;
+			margin-top: 30%;
+			margin-left: 4px;
+		 }
+		 /* top_cneter */
+#log a{
+	display:block;
+	height: 38px;
+	background: url(../img/kgbook-logo.png) no-repeat;
+}
+/* genre */
+#top_center{
+	border-bottom: 1px solid #cccccc;
+	}
+.breadcrumb-item + .breadcrumb-item::before {
+				content: "|";
+				font-size: 0.9rem;
+				color: #CCCCCC;
+			}
+.font_cr a{color: #037b82;font-size: 0.7rem;}
+.font_cr a:hover {
+			  text-decoration:  none;background-color: #008cba;color: #fff;
+			}
+.bg_info{background-color:#17a2b8;}
+.img_sz{width: 130px;height: 180px;}
+	@media (max-width:768px) {
+		
+	}
+	@media (max-width: 991.99px) {
+	  #top,#top_center,#content{
+			    max-width: 100%;
+			  }
+		}
+
+	/* content--right--*/
+			.right_bg{background-color: #f2f7f6;margin: 20px;}
+			.right_bg a{
+				color: #008cba;
+				text-decoration: none;
+				line-height: inherit;
+				font-size: 0.875rem;
+			}
+		.right_bg li{ height: 2em; line-height: 1.5em;}	
+	/* button */
+	.bot_range{margin-top: 1%;
+					margin-bottom: 1%;
+					padding-top: 1%;
+					border-top: 1px dashed #ccc;
+					}
+/* center-bottom hot*/
+.likes{
+	width: 48px;
+	text-align: center;
+	font-size: 13px;
+	color: #ca6445;
+	background: #Fae9da;
+	line-height: 1.3;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	float: left;
+	margin-right: 19px;
+}
+.b_style a{
+	color: #008cba;
+	text-decoration:none;
+	font-size: 0.875rem;
+}
+.b_style span{
+	font-size: 0.75rem;
+	color:#ccc;
+}
+.b_style p{
+	font-size: 0.75em;
+	padding: 10px;
+	color: #999;
+	border-bottom:1px dashed #ccc ;
+}

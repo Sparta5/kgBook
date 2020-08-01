@@ -1,0 +1,14 @@
+				/* center--left--book */
+				.book li{
+					width: 33.333%;
+					padding-bottom: 1.25rem;
+					}
+			.img_style{
+				border: 1px solid #50505066 !important;
+				padding: 6px;
+				margin: ;
+				width: 130px;height: 180px;
+			}
+			.border_bottom{
+				border-bottom: 1px dashed #cccccc; 
+			}
